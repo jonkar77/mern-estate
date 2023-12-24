@@ -10,7 +10,7 @@ mongoose.connect(process.env.MONGO).then(() => {
         console.log(err);
     }
     );
-
+    
 const app=express();
 app.listen(3000, () => {
 
