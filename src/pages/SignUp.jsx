@@ -26,8 +26,8 @@ export default function SignUp() {
       });
       const data=await res.json();
       if (data.success===false) {
-        setError(data.message);
         setLoading(false);
+        setError(data.message);
         return;
       }
       setLoading(false);
@@ -56,7 +56,7 @@ export default function SignUp() {
 
       <div className='flex gap-2 mt-5'>
         <p>Have an account</p>
-        <Link to='/sign-in'>
+        <Link to={'/sign-in'}>
           <span className='text-blue-700'>Sign In</span>
         </Link>
       </div>
