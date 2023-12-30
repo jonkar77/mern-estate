@@ -69,9 +69,6 @@ export default function Profile() {
         </p>
 
 
-
-
-
         <input type='text' placeholder='username' className='border p-3 rounded-lg' id='username' />
         <input type='email' placeholder='email' className='border p-3 rounded-lg' id='email' />
         <input type='text' placeholder='password' className='border p-3 rounded-lg' id='password' />
